@@ -1,0 +1,45 @@
+.start-title-container
+{
+  transform: translateX(-50%) translateY(calc(-50% + -50px));
+  box-shadow: -20px -8px 4px #8DAECA;
+  background-color: #97CFC9;
+}
+
+.start-title
+{
+  margin: -80px 30px 0 30px;
+  position: relative;
+  color: #525252;
+  font-family: 'Jost', sans-serif;
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+
+.author-container
+{
+  transform: translateX(calc(-50% + -180px)) translateY(calc(-50% + 20px));
+}
+
+.author
+{
+  color: #999999;
+  font-family: 'IBM Plex Mono';
+  font-size: 16px;
+}
+
+.start-button
+{
+  transform: translateX(calc(-50% + 340px)) translateY(calc(-50% + 20px));
+
+  background-color: #EDC7D9;
+  color: #525252;
+  box-shadow: 10px 20px 4px #F2E2CE;
+
+}
+
+.start-button:hover
+{
+  color: white;
+  box-shadow: 0 0 0 #F2E2CE;
+
+}

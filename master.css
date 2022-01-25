@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+body
+{
+}
+
+
+div
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+.answer-container
+{
+  text-align: left;
+}
+
+.question-container
+{
+  font-size: 50px;
+}
+
+.button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40px;
+  height: 40px;
+
+  transition: box-shadow 0.5s;
+  transition-timing-function: ease-out;
+}

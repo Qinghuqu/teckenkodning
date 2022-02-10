@@ -13,19 +13,42 @@ div
   top: 50%;
 }
 
-a
+a:link
 {
-  text-decoration: none;
+  color: inherit;
 }
 
-.answer-container
+.question-number-container
 {
+  width: 200px;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 120px;
+}
+
+.question-answer-container
+{
+  padding: 16px;
+  padding-bottom: 0px;
   text-align: left;
 }
 
-.question-container
+.question
 {
-  font-size: 50px;
+  color: #3d3d3d;
+  font-family: 'Jost';
+  font-size: 20px;
+}
+
+.answer
+{
+  color: #565656;
+  font-family: 'IBM Plex Mono';
+  font-size: 12px;
 }
 
 .button
@@ -37,6 +60,13 @@ a
   width: 40px;
   height: 40px;
 
+  color: #525252;
+
   transition: box-shadow 0.5s;
   transition-timing-function: ease-out;
+}
+
+.button:hover
+{
+  color: white;
 }

@@ -32,14 +32,11 @@
   transform: translateX(calc(-50% + 340px)) translateY(calc(-50% + 20px));
 
   background-color: #EDC7D9;
-  color: #525252;
   box-shadow: 10px 20px 4px #F2E2CE;
 
 }
 
 .start-button:hover
 {
-  color: white;
   box-shadow: 0 0 0 #F2E2CE;
-
 }

@@ -2,28 +2,35 @@
 <html lang="sv" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Teckenkodning - start</title>
-    <link rel="stylesheet" href="master.css">
-    <link rel="stylesheet" href="start.css">
+    <title>Teckenkodning - fråga 4</title>
+    <link rel="stylesheet" href="../../master.css">
+    <link rel="stylesheet" href="q4.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
-    <div class="start-title-container">
-      <h1 class="start-title">
-        Teckenkodning
-      </h1>
+    <div class="question-number-container">
+      4
     </div>
 
-    <div class="author-container">
-      <p class="author">
-        Projekt av Yangyi Qi för webbutveckling 1
+    <div class="question-answer-container">
+      <h1 class="question">
+        Vad är utf-8 i html?
+      </h1>
+      <p class="answer">
+        Att många utvecklare skriver i sin webbkod taggen &lt;meta charset="utf-8"&gt; beror på att taggen indikerar användningen av standarden UTF-8. UTF-8 är en standard baserad på samt stödjer alla unicode-tecken, dvs nästan alla brukade skriftspråk i världen. Fullständig Unicode kräver användning av 3 byte per tecken (med dess 21 bits), och leder till onödigt stora filstorlekar. När istället UTF-8 tillämpas kommer de första bitarna i ett tecken att motsvara hur många bytar tecknet lagras i, och därmed kan tecknen kodas på olika långa bytar. Exempelvis kodas engelska bokstäver endast i en byte, samma datamängd som enligt ASCII. 
       </p>
     </div>
 
-    <a href="question/1/index.html">
-      <div class="start-button button">
-        <i class="icon fa fa-play"></i>
+    <a href="../../outdex.html">
+      <div class="button next-button">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+      </div>
+    </a>
+
+    <a href="../3">
+      <div class="button last-button">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
       </div>
     </a>
 

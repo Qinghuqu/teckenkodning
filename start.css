@@ -8,7 +8,6 @@
 .start-title
 {
   margin: -80px 30px 0 30px;
-  position: relative;
   color: #525252;
   font-family: 'Jost', sans-serif;
   font-size: 100px;
@@ -33,7 +32,6 @@
 
   background-color: #EDC7D9;
   box-shadow: 10px 20px 4px #F2E2CE;
-
 }
 
 .start-button:hover
